@@ -2,7 +2,7 @@
 package westbankapp;
 
 public class CuentaCorriente extends CuentaBancaria {
-    private static final int LIMITE_GIRO = -100000;
+    private static final int LIMITE_GIRO = 0;
 
     public CuentaCorriente(int numero) {
         super(numero);
